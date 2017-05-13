@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPane1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPane1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="cc" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="cc" red="cc" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Transit Use And Ridesharing">
+                <Property name="tabTitle" type="java.lang.String" value="Transit Use And Ridesharing"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane1" pref="707" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="backJButton2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="288" max="-2" attributes="0"/>
+                      <Component id="jProgressBar1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jProgressBar1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" pref="441" max="32767" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="backJButton2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="backJButton2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="18" style="0"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="C:\Users\Swarup\Documents\NetBeansProjects\Project\back-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Back"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="backJButton2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea1">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Ridesharing Benefits&#xa;There are many benefits to ridesharing, some more obvious than others. If you are not sure if ridesharing is for you, consider the following.&#xa;&#xa;Ridesharing can save you money!&#xa;Simply put, when you carpool, you will drive less and save money. These savings come from reduced maintenance costs (e.g., less frequent oil and air filter changes), savings on gasoline, and some insurance companies offer carpoolers reduced auto insurance rates.&#xa;&#xa;The American Automobile Association estimates in their &#x201c;Your Driving Costs&#x201d; 2011 brochure, that it costs the average driver who drives 15,000 miles per year, 56.6 cents a mile for maintenance, insurance, license, registration, depreciation, finance charges and taxes. This estimate is based on fuel costs of $2.88 per gallon. With Long Island average pump prices of $3.89 as of April 5, 2011, the average cost per driving a vehicle getting 22 miles per gallon, the jumps to 61.2 cents per mile. In this scenario, if two people living nearby were to ride together on the 50-mile round trip commute each day and split the driving, each would save more than $3400 in commuting costs over the course of a year.&#xa;&#xa;Ridesharing can help to improve air quality!&#xa;Automobiles and light trucks are considered the largest contributors to air quality problems in the U S. According to 2008 EPA estimates, passenger cars and light trucks accounted for 22 percent of total hydrocarbon emissions, 50 percent of the nation&#x2019;s carbon monoxide (CO) emissions, 32 percent of the total nitrogen oxide (NOx) emissions and 18 percent of nationwide greenhouse gas emissions.&#xa;&#xa;Ground level ozone is produced when hydrocarbons react with nitrogen oxides in the presences of sunlight under sustained elevated temperatures. Ground level ozone, a major component of photochemical smog, contributes to respiratory problems such as coughing, wheezing and shortness of breath. Sustained exposure to high ozone levels can lead to permanent lung damage. Young children, the elderly, and people with pre-existing respiratory ailments are most susceptible to respiratory affects from exposure to ozone.&#xa;&#xa;Oxides of nitrogen also contribute to the formation of acid rain. Acid rain is a broad term referring to the deposited materials from the atmosphere containing higher than normal amounts of nitric and sulfuric acids. It occurs when NOx and sulfur dioxide react with water and oxygen in the atmosphere to form various acidic compounds. Lakes and streams become acidic when the water itself and its surrounding soil cannot buffer the acid rain sufficiently to neutralize the acids. When the buffering capacity of soils is reduced, acid rain causes aluminum in the soil to be released into streams and lakes. Aluminum is highly toxic to many species of aquatic organisms including trout, bass, snails, clams and crayfish.&#xa;&#xa;Exposure to elevated atmospheric concentration of carbon monoxide can be particularly dangerous to people with heart disease as it can reduce the flow of oxygen into the bloodstream.&#xa;&#xa;Scientists now believe that greenhouse gas emissions from man-made sources contribute to the climatic phenomena referred to as climate change or global warming. Greenhouses gases are defined as any gas that absorbs infrared radiation in the atmosphere. Greenhouse gases include carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), halogenated fluorocarbons (HCFCs), ozone (O3), perfluorinated carbons (PFCs), and hydrofluorocarbons (HFCs).&#xa;&#xa;Ridesharing helps to reduce the number of vehicles on the road, which in turn reduces vehicular air pollution. The table below shows the emissions produced by the average properly maintained passenger car and light truck on the road in 2008 based published data from the US DOT Bureau of Transportation Statistics.&#xa;&#xa;Annual Emissions for the &quot;Average&quot; Passenger Car and Light Truck&#xa; &#xa; &#x9;Pollutant&#x9;Emission Factor (grams/mile)&#x9;Annual Emissions (lbs) *&#xa;Passenger Car&#x9;Hydrocarbons&#x9;0.78&#x9;21&#xa;Carbon Monoxide&#x9;8.84&#x9;234&#xa;Nitrogen Oxides&#x9;0.66&#x9;17&#xa;Carbon Dioxide&#x9;364&#x9;9,631&#xa;Light Truck**&#x9;Hydrocarbons&#x9;0.97&#x9;26&#xa;Carbon Monoxide&#x9;11.22&#x9;297&#xa;Nitrogen Oxides&#x9;0.93&#x9;25&#xa;Carbon Dioxide&#x9;519&#x9;13,732&#xa;* Emissions estimates presume average annual mileage of 12,000. &#xa;** Light trucks include pickups, vans, minivans, and sports-utility vehicles.&#xa;Ridesharing conserves non-renewable energy resources!&#xa;According to DOE estimates for 2008, 70 percent of the oil used in the US is used to by the transportation sector and roughly forty-four percent was consumed by passenger cars and light trucks. In 2009, 51 percent of the oil used in the US was imported, down from 58 percent in 2007.&#xa;&#xa;With more higher mileage models available in the market, Americans have been purchasing more fuel-efficient vehicles over the last several years, as the average fuel economy of new passenger cars has increased from 28.5 miles per gallon in 2000 to 33.7 miles per gallon in 2010, while over the same period the average fuel economy of new light duty trucks increased from 20.9 to 25.1 miles per gallon. According to US 2008 DOT/FHA Highway Statistics, the average mileage of passenger cars on the roads in 2008 was 22.4 miles per gallon while the average mileage for light trucks was 18.1 miles per gallon. Assuming a 50-mile round trip commute, two people ridesharing five days per week, 45 weeks per year would save 502 gallons of gas if the vehicle taken off the road was a passenger car, and 621 gallons would be conserved if the vehicle removed from the road was a light truck.&#xa;&#xa;Ridesharing might save you some time!&#xa;If you have a long commute, say from Nassau County or Queens, you may find yourself frequently fighting heavy traffic on the LIE. If you rideshare, you can use the High Occupancy Vehicle (HOV) lane on the expressway."/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JProgressBar" name="jProgressBar1">
+              <Properties>
+                <Property name="stringPainted" type="boolean" value="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="cc" red="cc" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Parking Management">
+                <Property name="tabTitle" type="java.lang.String" value="Parking Management"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane2" alignment="0" pref="707" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="backJButton11" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" pref="441" max="32767" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="backJButton11" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="backJButton11">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="18" style="0"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="C:\Users\Swarup\Documents\NetBeansProjects\Project\back-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Back"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="backJButton11ActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea2">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Parking Management Benefits&#xa; &#xa;Efficiency and Savings&#xa;Parking Management that reduces parking requirements can provide cost savings and increase consumer Affordability. Parking is one of the largest transportation costs (Litman, 2002; www.vtpi.org/tca/tca0504.pdf). A comprehensive Parking Management program that includes several strategies (Shared Parking, more accurate parking requirements, pricing, Cash Out, etc.) can often reduce parking requirements by 30-50% compared with generous minimum parking requirements, unpriced parking, and each space assigned to an individual motorist. With appropriate Parking Management motorists still have adequate parking, although they may need to walk somewhat farther, and pay directly rather than indirectly for parking.&#xa; &#xa;The magnitude of savings that result from Parking Management depends on specific conditions, including the cost per parking space and how much parking can be reduced. Below are some examples of potential savings, assuming that a comprehensive Parking Management program can reduce parking requirements by a third, and annualized parking facility costs average $1,200 in urban conditions and $600 in suburban conditions:&#xa; &#xa;&#xb7;         Cashing Out free parking is equivalent to a 3% wage increase for an employee earning $40,000 per year at an urban location, and a 1.5% wage increase for suburban employees.&#xa; &#xa;&#xb7;         If building rent represents 20% of a business&#x2019;s total costs, and parking represents 25% of rent costs, reducing parking costs by 40% results in a 2% reduction in total costs. If the business has a 10% profit margin, this increases profits by 20%.&#xa; &#xa;&#xb7;         If two parking spaces are currently included with housing, decoupling parking (renting parking spaces separately) provides $100 monthly savings for an urban household that only owns one vehicle, and $200 monthly savings if it owns no vehicles. This represents a 12-25% reduction from a $800 per month rent or mortgage payment. Suburban households save half this amount, a 10-20% savings from a $500 per month rent or mortgage payment.&#xa; &#xa;&#xb7;         If standard practices result in an average of two parking spaces per vehicle in urban areas and four spaces per vehicle in suburban areas, a 33% reduction in total parking requirements results in total annualized savings of $800 per vehicle.&#xa; &#xa;&#xb7;         Parking cost savings depend on the ability of facility managers to sell, lease or rent excess parking capacity. For example, if a business has 100 parking spaces, and its Commute Trip Reduction program reduces demand to 60 parking spaces, it will have 40 parking spaces that are no longer needed. The business will need to sell, lease or rent these spaces, or convert the land to other uses, in order to benefit from this reduced demand. Parking brokerage services, perhaps through a Transportation Management Association, a chamber of commerce or other organization can help businesses capture parking cost savings.&#xa; &#xa; &#xa;Reduced Automobile Use&#xa;Parking Management is one of the most effective ways to reduce motor vehicle traffic and achieve TDM objectives. Parking Management (Parking Pricing, Cashing Out parking, unbundling parking from housing) can reduce total automobile trips by 10-30%, and more if implemented as part of a comprehensive TDM program (see discussion of travel impacts above). This helps reduce traffic congestion, road and parking facility costs, road risk, pollution emissions and urban sprawl, and can increase Transportation Diversity.&#xa; &#xa;Improved Design&#xa;Parking Management allows greater flexibility in facility location and site design. It gives building managers and developers more options for dealing with parking problems. It gives communities more control over land use, allowing higher density, more walkable urban areas. It can facilitate the preservation of historic buildings and districts, and allows designers to position buildings to meet access, aesthetic and environmental objectives in ways that are impossible if parking requirements are inflexible. Such design flexibility is particularly important for infill development and areas with high land costs, allowing redevelopment of central business districts and urban communities (Voith 1998).  Parking Management is an important component of efforts to create more efficient and attractive urban conditions (New Urbanism).&#xa; &#xa;Business Impacts&#xa;Parking restrictions and pricing can reduce business activity in an area and shift travel to more suburban locations (Shiftana 1999), although these impacts depend on specific conditions, including how prices are structured, and the quality of travel and location alternatives. When parking revenues are used to improve local streetscape conditions or to fund transportation alternatives they can increase business activity in a downtown (Kolozsvari and Donald Shoup, 2003).&#xa; &#xa;Reduced Environmental Impacts&#xa;Pavement imposes environmental impacts including reduced groundwater recharge, increased stormwater management requirements, reduced greenspace and wildlife habitat, and heat island effects (Land Use Evaluation). Parking consumes a significant portion of urban land, particularly in commercial and high-density residential areas. Parking Management can reduce urban sprawl and the environmental impacts that result (Willson 1995).&#xa; &#xa; &#xa;Parking Management Costs&#xa;Increased Management and Transaction Costs&#xa;Parking Management often increases administrative responsibilities for public officials and facility managers, and additional responsibilities and inconvenience on motorists.&#xa; &#xa;Spillover Impacts&#xa;Parking charges and restrictions in one area may cause motorists to park in other areas where they create congestion problems. This may increase management and enforcement costs, and create conflicts between neighbors."/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="cc" red="cc" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Flexible Working hours">
+                <Property name="tabTitle" type="java.lang.String" value="Flexible Working hours"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane3" alignment="0" pref="707" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="backJButton10" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                      <Component id="jScrollPane3" pref="441" max="32767" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="backJButton10" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="backJButton10">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="18" style="0"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="C:\Users\Swarup\Documents\NetBeansProjects\Project\back-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Back"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="backJButton10ActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea3">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Here are the top 10 reasons companies should &quot;think strategically about family-friendly policies and work-life benefits,&quot; as National Work and Family Month recommends.&#xa;&#xa;Better teamwork. Having flexible work policies that allow my staffers to set their own schedules and work from home has enabled them to take time for doctor&apos;s appointments, children&apos;s activities, and all sorts of &quot;life&quot; moments. Everyone on our team is afforded the same flexibility, so everyone pitches in to help out when someone is away. Instead of resentment or isolation, we are a more connected, more supportive team because we all reap the benefits.&#xa;&#xa;A more productive workforce. Several studies over the last several years have shown that telecommuters are more productive than their in-office counterparts.&#xa;&#xa;Happier, more satisfied employees. Employees who feel empowered to structure their work and personal lives according to their needs are more satisfied. In fact, when asked whether they&apos;d rather have a flexible work environment or a salary increase, professionals overwhelming choose flexible work.&#xa;&#xa;Continuity during uncertain business conditions. Over the last year, our team has experienced floods, tornado warnings, snow storms, power outages, Internet service disruptions, and other unforeseeable events. If we were centrally located, one of these events could have slowed down or even stopped our daily business operations. Because we all work from home with flexible schedules, we didn&apos;t miss a beat.&#xa;&#xa;A wider talent pool. Because of our flexible work policies, we&apos;ve been able to hire people from across the United States and even Europe. As a small business, finding talent that fits best with our company, regardless of location, is priceless.&#xa;&#xa;Opening up new sources of talent. By offering flexible schedules and family-friendly policies, companies can find talent that otherwise is closed off to traditional 9-5 office jobs. Stay-at-home parents, military spouses, retired professionals, and professionals with disabilities are all brought into the workforce through flexible work options.&#xa;&#xa;Lowered environmental impact. Fewer buildings to maintain, less commuting to and from work, and fewer used office supplies to dispose of are just some of the ways flexible work policies help companies lower their carbon footprints.&#xa;&#xa;Reduced turnover and hiring costs. Satisfied employees are less likely to look for greener, more flexible pastures, reducing the need for companies to fill vacated positions and keeping brain drain to a minimum.&#xa;&#xa;Faster growth. A recent study found that companies who hire telecommuters grow at a faster rate than companies with only in-office workers. Being able to hire salespeople in different geographic locations is one reason.&#xa;&#xa;Experiencing all of these firsthand in my work as the CEO and Founder of FlexJobs inspired an idea called 1 Million for Work Flexibility. Just recently launched, 1 Million for Work Flexibility is the first national initiative to bring people together and create a collective voice in support of work flexibility. If you value flexible work options, join 1 Million for Work Flexibility to voice your support for work flexibility for all.&#xa;&#xa;I&apos;ve worked with companies large and small to help them expand their policies to include telecommuting, flexible schedules, and professional-level part-time jobs. Each company needs to structure their flexible work policies to fit their overall needs and goals, but every company can benefit from family-friendly policies and work-life benefits!"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel4">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="cc" red="cc" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Telecommuting Programs">
+                <Property name="tabTitle" type="java.lang.String" value="Telecommuting Programs"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="backJButton9" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="620" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane4" pref="707" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="514" max="32767" attributes="0"/>
+                      <Component id="backJButton9" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                          <Component id="jScrollPane4" pref="451" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="backJButton9">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="18" style="0"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="C:\Users\Swarup\Documents\NetBeansProjects\Project\back-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Back"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="backJButton9ActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea4">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Telecommuting is the act of working at a remote location, usually at home, rather than traveling to and from an office.  Telecommuters typically telecommute one to three days a week and commute to the office for the balance of the time.&#xa;&#xa;From an organizational standpoint, telecommuting is justified when the costs are balanced by the benefits.  If, as is most often the case, the benefits exceed the costs, telecommuting should be actively promoted.  There are six benefits that should be considered.&#xa;&#xa;1.       Improved Employee Productivity:&#xa;        Employees who telecommute (and their supervisors) have reported that they are more effective at home than when they work out of the office.  The primary reason given is that the multiple, seemingly endless, interruptions at the office create a work pattern that is subject to repeated restarts.  These interruptions occur when coworkers stop by to chat or supervisors pop in to ??check up.??  There is the additional aspect of the ??water cooler?? effect that saps productivity.  The restarts from these interruptions absorb additional time while employees ??catch up?? to where they were prior to the interruption.&#xa;&#xa;        While the social aspects of work are important to employees, there are times when these activities detract from their work.  Positions that telecommute two or three days per week find that they can be more effective when at home, yet still maintain professional and social relationships at the office.&#xa;&#xa; &#xa;2.   Schedule Flexibility:  Telecommuters are more productive when they can schedule their actual work time a.) during their most effective periods and b.) around the other demands in their lives.&#xa;&#xa;        Some individuals are morning people, others are more productive at night.  Telecommuters have the ability to schedule work to accommodate their own internal clocks.&#xa;&#xa;        They also find that they can more easily balance their work with other demands in their lives.  Such demands include: time with family members and time running personal errands.&#xa;&#xa;        Telecommuting is not considered a substitute for child or day care.  It does, however, provide telecommuters with greater flexibility in scheduling this type of care.&#xa;&#xa; &#xa;3.   Increased Time Available for Work:  Telecommuters contend that it takes productive time out of the work day to ??wind down?? from, and mentally prepare for, the stress associated with commuting to and from work.  This is time that is available and productive to them when they work at home.&#xa;&#xa;        This increased time is not time that the employee would have normally spent commuting.  The time referred to here is scheduled time that is not available as a consequence of the stress caused by traveling to work.  (For these programs to be successful, it is important that telecommuting not be viewed as a management tool for getting more time out of employee??s lives.)&#xa;&#xa;        Additional savings of productive time are often realized as a result of the reduced use of sick time to meet personal or family needs.  Not surprisingly, telecommuters report that they are less likely to take a sick day in order to be home for deliveries or repairs, or to take children to important appointments.&#xa;&#xa; &#xa;4.   Overhead Reductions:  Organizations with sophisticated and well-planned telecommuting programs have found a number of ways to reduce the space and furnishing requirements for employees.  Organizations with a large number of telecommuters have actually reduced their office space requirements, and, consequently, their rents, by insisting that telecommuting employees share desks and other resources at their company facilities.  This type of savings can be recognized when organizations schedule their employee??s telecommuting days appropriately.&#xa;&#xa;        Some organizations go so far as to treat office space as ??hotel suites?? that can be reserved in advance or assigned when telecommuters ??check-in?? on days when they commute.  In these organizations, an individual??s telephone number can be routed to whichever office suite they happen to be occupying.&#xa;&#xa;        Some organizations provide sophisticated telecommunications services for their telecommuters.  For example, office telephone numbers can be routed anywhere the employee happens to be: a regular office, a shared suite, a client??s location, or the home office.  The caller has no way of knowing where the person is at the time of the call.&#xa;&#xa;        Organizations have reported up to 30% reductions in overhead by requiring sales and service personnel to telecommute.&#xa;&#xa; &#xa;5.   Improved Employee Retention and Attraction:  Employees who have experienced the benefits of telecommuting programs tend to prefer these work arrangements and seek out similar opportunities.  These employees are attracted to positions and organizations that offer telecommuting programs.  Recent advertise-ments in such newspapers as the San Jose Mercury News, the Los Angeles Times, and the Boston Globe have recruited for positions that allow telecommuting.&#xa;&#xa;        Employers also use telecommuting to keep employees who, for various personal reasons, find that they can no longer commute to their offices.  Organizations find, for example, that when the spouse of a valuable employee is forced to relocate, the employee may be retained through the use of telecommuting.&#xa;&#xa;        Telecommuting is also a mechanism for recruiting persons with disabilities.  These may be individuals who are excluded from the work force solely on the basis of their inability to commute to and from an office.  (Employers with persons with disabilities as telecommuters should take care to provide for some social interaction among all their employees.)&#xa;&#xa; &#xa;6.   Program Continuity:  Telecommuting also serves as a mechanism to avoid or minimize external impacts on projects and programs.  Telecommuters are less likely to use sick days for their own minor illnesses.  Rather than take sick time and be unproductive for the entire day, telecommuters often find that the opportunity to work at home allows projects to proceed (and without risking the health of their office mates).&#xa;&#xa;        Telecommuting is also useful in minimizing the impacts of other occurrences, such as extremely inclement weather, highway construction, or special events (e.g., the Olympics).  In the Snow Belt, ??snow days?? at local schools force many parents to stay at home, rather than go to work, in order to supervise children usually at school.  And even employees without children can find it difficult to even get to the office.  These interruptions play havoc with deadlines and deliverables.  Organizations with telecommuting programs in place are much less affected by the weather.&#xa;&#xa; &#xa;Telecommuting has been embraced in hundreds of organizations in a wide range of industries.  The benefits of telecommuting (improved employee efficiency, schedule flexibility, increased time available for work, overhead reductions, improved employee retention and attraction, and program continuity) are desirable outcomes for any management process.  Consequently, telecom-muting is a valuable management strategy for improving the effectiveness of any organization."/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel5">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="cc" red="cc" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Bikeways">
+                <Property name="tabTitle" type="java.lang.String" value="Bikeways"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="backJButton8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="620" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane5" pref="707" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="514" max="32767" attributes="0"/>
+                      <Component id="backJButton8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                          <Component id="jScrollPane5" pref="451" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="backJButton8">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="18" style="0"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="C:\Users\Swarup\Documents\NetBeansProjects\Project\back-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Back"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="backJButton8ActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea5">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Bikeway program is for convenience of motorists&#xa;The bikeway program is not run, and never has been run, as a program for better cycling.  It was originally designed, and the design has never significantly changed, to remove cyclists from the roadways for the convenience of motorists.  Since then, two other purposes have been attached to it.  The second added purpose is to increase the number of cyclists by promising them that they can ride safely without learning how to operate properly.  The third purpose is to reduce motoring because, it is hoped, many of these new cyclists will be cycling instead of motoring.&#xa;&#xa;Many people are upset at the assertions made above.  The fact that they are upset demonstrates the strength of their belief in the misinformation that has been so widely spread.  History shows that the significant existing bikeway programs were started by the motoring establishments:  Germany, 1930s; Britain, 1937 (beaten back by British cyclists); Holland, 1940s under German occupation, then again in the 1960s.  In China, where urban streets are crowded with bicycles, the advent of modern motor traffic has caused the government to build bikeways to push the cyclists aside for the convenience of motorists.&#xa;&#xa;History of bikeway program&#xa;The American bikeway programs started in California beginning in 1971 through the Calif. Highway Patrol and Auto Club of Southern Calif., which got legislation to authorize Bikeway Planning Criteria and Guidelines, by UCLA Traffic Engineering.  (We cyclists killed this as far too dangerous for cyclists).  Then the process continued in California, 1972-4 (CHP &amp; ACSC again) Planning and Design Criteria for Bikeways in California, largely opposed by cyclists.&#xa;&#xa;Simultaneously, the Federal Highway Administration started to investigate its bikeway program.  This resulted in Bikeways - State of the Art - 1974, which was followed in 1975 by the three-volume Safety and Location Criteria for Bicycle Facilities (FHWA-RD-75-112, -113, -114).  This latter was opposed by cyclists and was not adopted.  Instead, in 1976 the FHWA and AASHTO (Amer. Assoc. of State Highway &amp; Trans. Officials) adopted California&apos;s design standard as Guide for the Development of Bicycle Facilities.  Revised versions of the Guide are still used for bikeway designs.&#xa;&#xa;Rather than hoping for some ideal transformation of society, we need to follow the strategy that is appropriate for a minority, that of protecting its rights, advancing its social standing, and improving the physical problems that affect us.  Using vehicular-cycling policy as our goal has the best prospect of making cycling safer, more useful and more enjoyable.&#xa;&#xa;Claims for bikeway program&#xa;Motorists never have to argue their case that bikeways clear the roads for motorists.  That argument is so obvious that it doesn&apos;t have to be argued, and so politically dangerous that they avoid mentioning the issue.  Instead, both motorists and anti-motorists argue three other claims.  1) Bikeways greatly reduce accidents to cyclists.  2) Bikeways are so safe that children and beginners, those who do not know how to ride safely, can use them safely.  3) Bikeways reduce highway congestion and improve the environment by persuading transportationally significant numbers of motorists to switch to cycling.  Not only does no evidence exist to support any of these claims, but the evidence that does exist either suggests that the claims are unlikely to be true or demonstrates that the claims cannot be true.&#xa;&#xa;There has been so much false propaganda spread around about bicycle transportation, generating so many improbable hopes, that people angrily object to the truth.  The two bikeway safety arguments above are easily disproved, but the public still believes that bikeways make cycling safe.  Therefore, both governmental and unofficial bikeway advocates rely on this superstition for political support, among other improbable arguments, for their desire that bikeways will reduce motoring.  The hoped for reduction in motoring simply will not occur.  Our cities, societies, and activities have developed around the usefulness of private motor transportation.  Not many of our transportation tasks can be practically done by bicycle, and most of those that can involve significant extra costs in time and complications.&#xa;&#xa;Those who oppose motoring magnify the disadvantages of motoring and minimize its utility, while minimizing the difficulties of bicycle transportation and overstating the degree to which fear of motor traffic reduces bicycle transportation.  Thus they argue that production of bikeways will unleash a great unsatisfied demand to switch from private motor transportation to bicycle transportation.  Nowhere in America or elsewhere in the world have bikeways produced this effect; wherever there is competition between private motor transportation and bicycle transportation, the car has been winning for many reasons.  Therefore, this is the environment in which cyclists have to operate.&#xa;&#xa;Need to enjoy cycling&#xa;Because of the extra complications of bicycle transportation (except for a few special locations, such as university campuses), bicycle transportation in prosperous societies will be done by those for whom the enjoyment of cycling outweighs those extra complications.  Such persons are most likely to appreciate the advantages of being treated as drivers of vehicles while recognizing the disadvantages of being treated as bikeway users.&#xa;&#xa;Treating cyclists as drivers of vehicles is the best policy for lawful, competent cyclists.  It is also best for the motorists with whom they share the roads.  As I see it, a national vehicular-cycling policy, by making cycling better both physically and socially, has the best chance of making the greatest possible increase in the amount of bicycle transportation by those who choose to do it.&#xa;&#xa;We want to protect cyclists&apos; use of the roadways as drivers of vehicles, to improve the roadways for cycling, to improve traffic operation for their safety.  These changes will aid us in encouraging more cycling by those who choose to do it.&#xa;&#xa;However, we have to accept that bicycle transportation, within the current planning horizon, will always be a small part of the transportation picture.  Furthermore, we have to present that position in a persuasive manner.  The position of bicycle transportation has been blown up out of all reasonable proportion by the confluence of two opposing interests.  These are the motorists, who magnify bicycle transportation, as a problem, to get cyclists off the roads, and the anti-motorists, who magnify bicycle transportation, as an illusion, to get motorists off the roads.&#xa;&#xa;Rather than hoping for some ideal transformation of society, we need to follow the strategy that is appropriate for a minority, that of protecting its rights, advancing its social standing, and improving the physical problems that affect us.  Using vehicular-cycling policy as our goal has the best prospect of making cycling safer, more useful and more enjoyable."/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel6">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="cc" red="cc" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Pricing fees">
+                <Property name="tabTitle" type="java.lang.String" value="Pricing fees"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="backJButton7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="620" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane10" pref="707" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="514" max="32767" attributes="0"/>
+                      <Component id="backJButton7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                          <Component id="jScrollPane10" pref="451" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="backJButton7">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="18" style="0"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="C:\Users\Swarup\Documents\NetBeansProjects\Project\back-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Back"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="backJButton7ActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane10">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea10">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Transit and Congestion Pricing&#xa;Pricing Strategies and Their Effect on Public Transportation&#xa;Congestion pricing and public transportation convey mutual benefits&#x2014;road pricing benefits public transportation by improving public transportation speeds and the reliability of public transportation service, increasing public transportation ridership, lowering costs for public transportation providers, and expanding the source of revenue that may be used for public transportation.&#xa;Public transportation benefits road pricing by absorbing commuters who shift their travel from automobile to bus or rail. By replacing traffic with free-flowing conditions on major routes, congestion pricing can improve the speed and productivity of current express bus services, making them more attractive to commuters while reducing operating costs. Reducing congestion can also facilitate rapid deployment of innovative, high-performance bus-rapid-transit (BRT) operations in major corridors, which require only modest investments in new vehicles and passenger facilities. Improving the performance and variety of peak-period public transportation through a combination of congestion pricing and limited capital investment can provide significant benefits to current public transportation users. It can improve public transportation&#x2019;s effectiveness in reducing peak-period auto travel and can provide the expanded passenger-carrying capacity necessary to accommodate shifts in public transportation commuter use induced by the imposition of congestion pricing.&#xa;Recent experience suggests that the effect of congestion pricing on public transportation depends on the type of pricing strategy implemented. At present, variably priced lanes have had limited effect on public transportation usage, whereas the impact of zone-based (cordon or area) pricing has been significant.&#xa;Flow Chart. Congestion pricing: Benefits to transit. The cycle depicts the benefits to transit. Congestion pricing leads to an increased price for peak-period highway use. This initiates the virtuous cycle, which is as follows: higher transit ridership leads to less highway congestion, which leads to higher transit speeds and more reliable transit service, which leads to higher transit ridership and lower costs for transit providers, which leads to more frequent service and lower fares, which loops back to higher transit ridership, and the cycle begins again. Within the diagram are two overlapping circles that depict opportunities for new capacity. One circle represents congestion pricing, the other circle depicts improved transit service. Expanded mobility is represented in the area where the two circles overlap.&#xa;Congestion pricing: Benefits to transit.&#xa;Variably Priced Lanes&#xa;Variably priced lanes include express toll lanes and HOT lanes. On HOT lanes, low-occupancy vehicles are charged a toll, whereas high-occupancy vehicles (HOVs), public transportation buses, and emergency vehicles are allowed to use the lanes free of charge or at reduced rates. HOT lanes create an additional category of eligibility to use HOV lanes. People can meet the minimum vehicle passenger requirement, or they can choose to pay a toll to gain access to the HOV lane. With citizens growing more frustrated with under-used HOV lanes, HOT lanes are increasingly being viewed as a solution that can reduce public opposition to HOV lanes. Express toll lanes are similar to HOT lanes&#x2014;the difference is that all vehicles are required to pay a toll, that is, HOVs do not get free service.&#xa;The current experience with HOT lanes suggests that variably priced lanes do not generate a shift to public transportation per se; however, in many cases, some of the revenues generated by the lanes are dedicated to public transportation.&#xa;State Route 91 Express Lanes in Orange County, CA&#xa;The four variably priced express lanes in the median of the State Route (SR) 91 freeway opened in December 1995. The objectives of the SR-91 express lanes were to generate revenue and to provide additional highway transportation options. The variable tolls range from $1.25 during off-peak times to as much as $9.80 on Friday afternoons. The toll schedule is adjusted every 3 months based on traffic observed over the prior 3-month period. Speeds are 60&#x2013;65 mph on the express lanes, whereas congestion on the free lanes has reduced average peak-hour speeds to no more than 15&#x2013;20 mph. During the peak hour, which occurs on Friday afternoon (5:00&#x2013;6:00 p.m.) in the eastbound direction, the two &#x201c;managed&#x201d; express lanes each carry almost twice as many vehicles per lane than do the free lanes because of the effect of severe congestion on vehicle throughput in the free lanes. Toll revenues have been adequate to pay for construction and operating costs.&#xa;Although local public transportation vehicles use the express toll lanes, there is little impact on public transportation operations from this variable-pricing application (Jackson, Zirker, Peirce, &amp; Baltes, 2008). Although a commuter rail line and an express bus line both operate in the SR-91 corridor, total public-transit ridership in the corridor amounts to less than 1 percent of the highway traffic (Sullivan &amp; Burris, 2006).&#xa;HOT Lanes on I-15 in San Diego, CA&#xa;The San Diego HOV/HOT-lanes deployment, known as FasTrak&#xae;, is a reversible HOV facility that operates along an 8-mile corridor within the median of I-15, north of downtown San Diego. Typical of other HOT lanes, the San Diego HOT lanes allow public transportation vehicles and carpools with two or more persons to travel free, and single-occupant vehicles may access the lanes if they pay a variable toll ($0.50&#x2013;$8.00). When the I-15 FasTrak&#xae; HOT-lanes project was opened with electronic tolling in 1998, it became the world&#x2019;s first fully dynamic variable-pricing operation. The toll varies based on the congestion level, which is analyzed every 6 minutes, with appropriate modifications made to the toll rate if needed.&#xa;Although this operation is primarily seen as a traffic-reduction highway initiative, the San Diego HOT lanes have always had a public transportation link in its concept and operations. The HOT lanes currently generate annual toll revenues of approximately $1&#x2013;$2 million. Approximately half of the toll revenues are used to fund the Inland Breeze bus express service between northern San Diego County and downtown San Diego along the HOT lanes. Ridership on the Inland Breeze is modest, and most of its riders had been using public transportation prior to its advent; thus, the new express bus service had little direct impact on congestion. Still, public transportation improvements financed by toll revenues contributed to a 25-percent increase in bus ridership.&#xa;Overall, the I-15 FasTrak&#xae; value-pricing program has been so successful that construction is underway to expand the system by 2012 to a 20-mile, two-directional managed-lane project that extends from downtown San Diego to Escondido in the far northern part of the county. A key component of this $1 billion expansion project is the inclusion of direct access ramps to five new BRT stations. The high-frequency BRT service is currently in development and will address the shortcomings of the Inland Breeze express bus service (Jackson, Zirker, Peirce, &amp; Baltes, 2008).&#xa;Houston, TX, HOT Lanes &#x201c;QuickRide&#x201d; Program on I-10/Katy Freeway&#xa;There are approximately 105 miles of HOV lanes that are operating in the Houston metropolitan area. The HOV lanes are owned and managed by the Metropolitan Public Transportation Authority of Harris County (Houston Metro). Public transportation vehicles, carpools with specified occupancy, vanpools, and motorcycles are allowed to use these lanes. The QuickRide program operates on two HOV facilities (I-10 and US 290) on which two-person carpools are required to pay a toll of $2.00 to use the HOV lanes during certain specified peak times when only vehicles with higher occupancy levels may ride free. Although a large number of public transportation vehicles use the HOV lanes, including express buses, there does not appear to be a strong connection between HOV lanes, the QuickRide program, and public transportation. On the basis of a 2004 evaluation of the QuickRide program, there were a number of complaints in regard to existing Houston Metro service along the HOV corridors. The service is not generating substantial and sustainable modal changes that favor public transportation ridership (Jackson, Zirker, Peirce, &amp; Baltes, 2008).&#xa;Minneapolis&#x2013;St. Paul, MN, I-394 MnPASS Value-Pricing Program&#xa;In May 2005, the Minnesota Department of Transportation (MnDOT) opened the I-394 HOT-lane corridor. Known as the I-394 MnPASS project, this project has the first HOT lane not physically separated (e.g., by barriers, separate roadway, etc.) from the toll-free, general-purpose lanes. This was made possible through strong enforcement and by incorporating the latest technologies into the HOT-lane operations. Toll rates are dynamically set (ranging from $0.25 to $8.00), depending on the current congestion level and the distance traveled. As is typical with all Minnesota HOV lanes, public transportation, carpools, and motorcycles never pay a toll. Although value-pricing objectives stated that road-use charges seek to provide incentives to shift some trips to off-peak times, less-congested routes, or alternative modes, a November 2006 evaluation found that most public transportation providers reported negligible impacts on operations as a direct result of the MnPASS deployment. The evaluation went on to emphasize that the MnPASS deployment will not result in mode-share changes to the I-394 corridor (Jackson, Zirker, Peirce, &amp; Baltes, 2008).&#xa;Denver, CO, I-25 Express Lanes&#xa;Since the I-25 express lanes opened in Denver, CO, in June 2006, usage levels are above predicted use. In June 2006, the first month of operation, 21,551 vehicles used the HOT lanes. This increased by 73 percent in March 2007 to 80,665 vehicles that used HOT lanes. Regional transportation district buses operated over 96 percent on time in the first year of operation of the HOT lanes.&#xa;Variable Tolls on Roadways&#xa;With variable tolls, flat toll rates on existing toll roads are changed to a variable-toll schedule so that the toll is higher during peak-travel hours and lower during off-peak or shoulder hours. This encourages motorists to use the roadway during less-congested periods and allows traffic to flow more freely during peak times. Peak-toll rates may be high enough to guarantee that traffic flow will not break down, thus offering motorists a reliable and congestion-free trip in exchange for the higher peak toll. Variable tolls can also be introduced on existing toll-free facilities to manage traffic flow. Again, tolls vary by time of day and are charged only on congested highway segments to manage traffic flow and to recover the highway&#x2019;s capacity to carry the number of vehicles for which it was designed.&#xa;New York&#x2013;New Jersey Variable Pricing&#xa;In February 2001, the Port Authority of New York and New Jersey changed its tolling system from fixed to variably priced along its numerous Hudson River crossings. An early analysis in June 2001 showed some effect on travel and public transportation patterns at a few key locations. Long-term impacts have not been reported (Jackson, Zirker, Peirce, &amp; Baltes, 2008).&#xa;Lee County, FL, Variable Bridge-Toll Pricing&#xa;The variable-pricing program on the Cape Coral and Midpoint Bridges in the Fort Meyers, FL, area is a small-scale project. To provide an incentive for motorists to adjust their travel times, half-price tolls are offered during a short period prior to and after peak hours to those vehicles registered with Lee Way prepaid toll accounts. (Standard tolls range from $0.50 to $1.00.) Survey data revealed that, among those eligible for the discount, there was an increase in traffic of as much as 20 percent during the discount period before the morning rush hours, with corresponding drops in the rush hour itself. However, there has been no discernable public transportation interest in this bridge-toll-pricing system (Jackson, Zirker, Peirce, &amp; Baltes 2008).&#xa;Zone-Based (Cordon or Area) Pricing&#xa;Zone-based pricing involves charging a fee to enter or drive within a congested area, usually a city center. Two of the most comprehensive and successful international examples of zone-based pricing have been in London, U.K., and Stockholm, Sweden. These cities&#x2019; experiences demonstrate that properly structured zone-based charging schemes can reduce urban congestion and increase public-transportation ridership. More important, there is a significant relationship between the success of zone-based pricing and the provision of public transportation.&#xa;Central London&#xa;Photo. A Transport for London sign advises motorists that they are entering a congestion charging central zone, which operates from Monday to Friday, 7 am &#x2013; 6 pm.&#xa;On February 17, 2003, London implemented an ambitious plan for using pricing to combat congestion in central London. The scheme requires the payment of an &#xa3;8 ($16) fee to enter a 15-square-mile area of Central and West London, which includes the historic and commercial core of the city. The charge is in effect from 7:00 a.m. to 6:00 p.m., Monday through Friday. There is an array of exemptions, including a 90-percent discount for residents of the zone.&#xa;The congestion charge had been in the planning stages since the mid-1990s but was ultimately implemented by London&#x2019;s first elected mayor as one component of his transportation strategy for the region. Enhanced public transportation services were at the core of this strategy and were deployed well in advance of implementing the congestion charge. Most of the public transportation investment was focused on the bus system, with 300 additional buses put into service months before the congestion charge was initiated.&#xa;A detailed, pre-charge review of bus services resulted in improved frequencies on 53 routes and the use of larger vehicles on 10 routes, that is, a change to double-decker or articulated buses. Fifteen routes were restructured or extended, and seven entirely new routes were introduced. All of these changes were implemented in 2002 and early 2003, months before the congestion charge actually took effect. A similar review was conducted in 2007, prior to the westward expansion of the zone. Overall, total scheduled bus mileage within the zone (including on the boundary) increased by 10 percent between January 2002 and January 2003. These service expansions coincided with other ongoing efforts to improve bus services, including improved traveler information, exclusive bus lanes, electronic fare payment, stricter enforcement of bus lanes and parking restrictions, public transportation signal priority, and low-floor and accessible vehicles. Essentially, Transport for London created a 200-mile network of dedicated bus lanes.&#xa;Evaluation results indicate that the charging system has been successful in reducing congestion by about 25 percent within the zone and has led to substantial increases in bus ridership. The charge raises &#xa3;122 million ($240 million) per year, which by law must be reinvested in transportation. Monitoring showed that bus ridership increased even more than expected. In the first year, ridership into the zone during the morning peak was up by 29,000 passengers (38 percent). Half of this was attributed to the congestion charge itself as opposed to other improvements that had been made to the bus system. The following year, inbound morning ridership increased by another 12 percent. Overall, bus ridership across the zone boundary during charging hours is now 37-percent higher (70,000 additional passengers) than before the charge. The additional bus capacity provided decreased impact on load factors: From 2002 to 2003, average occupancy on inbound morning buses only increased from 32 to 36 and has since moderated.&#xa;Bus travel times and reliability improved due to the reduction in traffic congestion brought about by the charge. &#x201c;Excess wait time&#x201d; at bus stops fell by 24 percent across Greater London during the first full year of charging, with a 30-percent decrease within the zone itself. By contrast, there has been little change in ridership on the London Underground and suburban rail services.&#xa;One noteworthy aspect of the London case is that Parliament granted a single agency, Transport for London, final authority for almost all aspects of transportation in Greater London, including the Underground and bus networks, light rail, maintenance on major roads, and the congestion charge itself. This fosters cooperation between the various modes of travel and appears to have been a significant success factor in coordinating the start of the congestion charge with additional public transportation services. An additional institutional factor that has proven important is support from other layers of government. In this case, the required level of public transportation investment exceeded the net revenue produced from the congestion charge, and public transportation funding, which was made available by the central government, offset the shortfall.&#xa;Stockholm City Center&#xa;Photo. A view of the city of Stockholm. In the background is the city skyline on the water; in the foreground traffic is flowing freely over a bridge.&#xa;Stockholm is the most recent large international city to deploy cordon pricing. It was first deployed on a trial basis from January 2006 to July 2006 and was made permanent in August 2007. During the trial, vehicle owners with Swedish registration were required to pay the congestion tax if their vehicle passed one of the 18 control points on the way in or out of the Stockholm inner-city area on weekdays between 6:30 a.m. and 6:29 p.m. Fees varied depending on the time of day, ranging from $1.50 to $2.75 (U.S. dollar equivalent). The highest charges were during the peak periods of 7:30 a.m. to 8:29 a.m. and 4:00 p.m. to 5:30 p.m. The cost for passing a control point varied, and there was a maximum charge per day, initially set at $8 per day. No congestion charges were made for travel during the evenings or at night, Saturdays, Sundays, or public holidays. Certain vehicle types, such as emergency vehicles, those with disabled drivers, and buses, were exempt from the tax. There were no resident discounts, except for residents of one land-locked island, which is only accessible by passing through the cordoned area.&#xa;Actual planning for the cordon pricing on a trial basis began in the autumn of 2003, and beginning on August 22, 2005&#x2014;5 months in advance of the congestion charge itself&#x2014;public transportation service was expanded. It was the largest increase in public transportation investment in modern times and accounted for an overall 7-percent increase in public transportation service. As the fixed-track (rail) service was already considered fully utilized during rush hours, it was clear that much of the increase in capacity had to be achieved by investing in extended bus service. During the trial, the public transportation system added 197 new buses and 16 new bus routes to allow for additional alternatives for travel during peak periods. Of the 16 new bus routes, 14 were express buses with enhanced comfort, transporting people from the municipalities surrounding Stockholm into the inner city. Although the express routes became the &#x201c;face&#x201d; of the public transportation service enhancements for the trial, almost 70 percent of the increase was to existing services. All existing bus routes added more frequent trips, and train lines added off-peak capacity where possible.&#xa;The cordon-pricing trial results were very favorable, with public acceptance climbing throughout the trial, from under 30-percent approval before the trial to over 55 percent toward the end. There was an immediate 22-percent drop in vehicle trips into the zone, a decrease in travel times, and a large shift to public transportation&#x2014;ridership on inner-city bus routes rose 9 percent. Buses, taxis, and distribution vehicles reported reductions in travel times. Traffic accidents involving injuries fell by 5&#x2013;10 percent. Exhaust emissions decreased by 14 percent in the inner city and by 2&#x2013;3 percent in Stockholm County.&#xa;Overall public transportation use increased by 6 percent (i.e., 45,000 riders), although about 1.5 percent of the increase was attributed to an increase in fuel costs. During the trial, 97 percent of the increased public transportation traffic took place when the tax was charged, with 75 percent occurring during peak periods (6:30&#x2013;9:00 a.m. and 3:30&#x2013;6:30 p.m.). Use of the park-and-ride lots increased by 23 percent. There was substantially less congestion on Stockholm access roads and a significant reduction in traffic to and from the city center.&#xa;The clear lesson is that expansion of public transportation alone was insufficient to meaningfully impact congestion; the real change occurred after the congestion charge began. Both additional public transportation service and congestion pricing are necessary to reduce congestion (Jackson, Zirker, Peirce, &amp; Baltes, 2008). Residents of the City of Stockholm voted for continuation of the system in a referendum on September 17, 2006. It was reinstated in 2007.&#xa;Singapore&#xa;Traffic congestion was significantly reduced when peak-period pricing was introduced in downtown Singapore during the morning rush hours in 1975. The U.S. General Accounting Office noted that in 1975, the Singapore city government instituted a $1 charge for private vehicles to enter the central business district during the morning rush hours. Carpools, buses, motorcycles, and freight vehicles were exempted from the charge. The result was an immediate 73-percent decline in the use of private cars, a 30-percent increase in carpools, and a doubling of buses&#x2019; share of work traffic. In spring 1998, the city shifted to a fully automated electronic-charging system, with in-vehicle electronic devices that allow payment by smart card, which is enforced with the use of cameras and license-plate&#x2013;reading equipment. Variable electronic charges were also introduced on the expressway system, with charges set by time of day to ensure free flow of traffic. The system, the first of its kind in the world, has reduced traffic by 13 percent and increased vehicle speed by 22 percent (U.S. General Accounting Office, 2003).&#xa;Area-Wide Pricing&#xa;The State of Oregon has tested a pricing scheme that involves per-mile charges, which it will consider using as a replacement for fuel taxes in the future. A congestion-pricing component was tested, with higher charges during congested periods on high-traffic road segments. The Puget Sound Regional Council tested the travel behavior impacts of a similar charging system in the Seattle metropolitan area during 2005&#x2013;2006. Charges were based on the type of facility used and its level of congestion. The impact of area-wide pricing schemes on transit use has not been examined.&#xa;Parking-Pricing Strategies&#xa;This type of congestion-pricing strategy does not involve tolls and is discussed in greater detail in a companion primer, Non-Toll Pricing. The discussion that follows focuses on transit impacts of this strategy.&#xa;Parking Cash-Out&#xa;The vast majority of employers provide their employees with free parking at work; few offer any transit or other commuter benefits. Even when alternative benefits are offered, they are generally capped at a far lower value than the parking subsidy that is provided. For these and other reasons, most employees choose to drive alone to work. An especially promising alternative is parking cash-out. Parking cash-out allows employers to offer their employees the option of receiving taxable cash in lieu of any parking subsidy offered, thus providing employees an incentive to find alternatives to driving alone during peak periods. Among 1,700 employees in eight case study firms in Southern California, parking cash-out led to an 11-percent reduction in commuter trips and a 12-percent reduction in commuter vehicle miles traveled.&#xa;Variably Priced Parking Meters&#xa;Free on-street parking provides an incentive for motorists to circle around congested urban blocks in search of a space and to bypass commercial garages that do have space but for which the driver must pay to use. Studies show that on average, 30 percent of traffic in dense urban areas can be attributed to such circling. Introducing on-street-parking pricing is a public acceptance challenge, although technologies such as pay-by-cell-phone systems and mid-block parking-ticket-dispensing machines that accept credit cards can help. Donald Shoup, the preeminent U.S. authority on parking policy, has regularly called for pricing at a level that yields 85-percent occupancy, leaving about one in seven parking spaces per block available for the taking. The transit impacts of such schemes have not been examined.&#xa;Lessons Learned&#xa;The Domestic Experience&#xa;All congestion-pricing schemes deployed in the United States to date have had the primary goal of congestion reduction (via modifications to travel times and routes) followed by revenue enhancements. Most areas have barely acknowledged mode shift as a goal and usually recognize it only as a byproduct of pricing initiatives. Congested areas may need to set their congestion-pricing fees relatively high to achieve the desired level of service on the roadways (tolls on Orange County&#x2019;s SR-91 have progressively risen to as much as $0.95 per mile) to maintain free-flowing traffic. However, in the absence of a reliable and viable public transportation alternative, higher fees have not led to significant modal shifts. Insufficient development of park-and-ride facilities has greatly limited public transportation&#x2019;s involvement in the domestic-pricing deployments. If mode shift is a project goal, properly sited parking must be developed to accommodate increased public transportation demand.&#xa;Thus far, public transportation involvement in domestic value-pricing strategies has been limited. To capture the mutual benefits of congestion pricing and transit, upper management at both highway and public transportation agencies must commit to jointly develop multimodal congestion-pricing programs.&#xa;The International Experience&#xa;Photo. A street-level view of four double-decker buses travelling up a central London street with no other traffic.&#xa;International zone-based pricing experiments could not have been successful without involvement from public transportation. Enhanced public transportation services are an essential component of a zone-based pricing system and must be comprehensively planned and deployed well in advance of zone-based charging. In London, planning for the zone-based charge began in the mid-1990s and included a series of progressively more detailed analyses. Much of the additional public transportation service was rolled out as early as one year before the advent of charging. Congestion pricing had been under discussion in Sweden since the early 1990s, and once the decision was made to begin zone-based charging, a year was spent comprehensively planning service modifications and their related impacts. New and enhanced public transportation service was launched 5 months in advance of the imposition of the congestion tax, which provided time to iron out problems and publicize the service.&#xa;Changes to public transportation service must be tailored to local conditions, travel patterns, and public transportation capacity constraints. In both London and Stockholm, this meant significant increases in bus services due to capacity constraints on the underground networks. On the basis of analysis of its travel patterns, Stockholm also emphasized express services from the suburban municipalities to the inner city, with accessible locations, limited-stop service, and frequent operations. Stockholm increased park-and-ride spaces by 18 percent and heavily publicized the new parking options. Selection criteria were applied to ensure that the new parking spaces were in close proximity to public transportation options, and parking was free with a public transportation pass.&#xa;In London, careful planning ensured that sufficient buses were provided to keep occupancy rates relatively constant, thus preventing overcrowding. Additional low-floor accessible buses were also ordered. The focus on the bus system also made sense, given that it has proven impossible to provide air conditioning in the Underground. Passenger comfort is an important factor when planning changes to public transportation service in anticipation of zone-based charging.&#xa;Although the increase in demand for public transportation as a result of congestion pricing can be relatively modest overall, it can still require major service changes for certain hours, locations, and directions of travel. In the year following the beginning of zone-based charging, overall bus ridership was up by only 2 percent in Greater London, but inbound morning ridership increased by 38 percent. Although overall public transportation ridership increased by 6 percent in Stockholm, the city saw increases in inbound morning ridership of 10 percent on the buses and 13 percent on the Underground (even with its capacity constraints). Another noteworthy lesson is the role that private service providers played: The timely expansion of bus services in London was possible because of contracts with private service providers.&#xa;U.S. Department of Transportation&#x2019;s Urban Partnership Agreements Program&#xa;Photo. A view of a typical San Francisco street, with moderate traffic and the Golden Gate Bridge in the distance.&#xa;On May 16, 2006, the U.S. Department of Transportation (USDOT) announced the National Strategy to Reduce Congestion on America&#x2019;s Transportation Network. One major component of the National Strategy is the Urban Partnership Agreement (UPA) Program, through which the USDOT partners with specific congested metropolitan areas to demonstrate the effectiveness of synergistic combinations of proven strategies in reducing traffic congestion. Under the UPA, metropolitan areas commit to pursue aggressive strategies under the umbrella of the &#x201c;four Ts&#x201d; (tolling, public transportation, telecommuting, and technology), an integrated approach to reducing traffic congestion (Jackson, Zirker, Peirce, &amp; Baltes, 2008).&#xa;At present, USDOT has entered into partnerships with six urban areas under the UPA Program and its successor, Congestion Reduction Demonstration Program:&#xa;Los Angeles, CA&#x2014;HOT lanes and additional express bus services.&#xa;San Francisco, CA&#x2014;Variable parking pricing.&#xa;Seattle, WA&#x2014;Variably priced bridge tolls and increased transit services.&#xa;Minneapolis, MN&#x2014;HOT lanes and improved express bus services.&#xa;Miami, FL&#x2014;HOT lanes and improved express bus services.&#xa;Atlanta, GA&#x2014;HOT lanes and improved express bus services.&#xa;Federal Transit Administration&#x2019;s Policy on HOV to HOT Conversions&#xa;The Federal Transit Administration (FTA) published its policy on HOV to HOT conversions in February 2007 (Federal Transit Administration, 2007). This policy states that FTA will classify HOT lanes as fixed guideway miles for purposes of the funding formulas administered so long as each of the following conditions is satisfied:&#xa;Photo. A carpool sign advises motorists that the lane is for two or more persons only.&#xa;The HOT lanes were previously HOV lanes and were reported in the National Transit Database as fixed guideway miles for purposes of the funding formulas administered by FTA. Facilities that were not eligible HOV lanes prior to being converted to HOT lanes will remain ineligible for inclusion as fixed guideway miles in FTA&#x2019;s funding formulas.&#xa;The HOT lanes are continuously monitored and meet performance standards that preserve free-flow traffic conditions as specified in 23 U.S.C. 166(d).&#xa;Program income from the HOT-lane facility, including all toll revenue, is used solely for &#x2018;&#x2018;permissible uses.&#x2019;&#x2019; &#x2018;&#x2018;Permissible uses&#x2019;&#x2019; means any of the following uses with respect to any HOT-lane facility, whether operated by a public or private entity:&#xa;Debt service,&#xa;A reasonable return on investment of any private financing,&#xa;The costs necessary for the proper operation and maintenance of such facility, and&#xa;If the operating entity annually certifies that the facility is being adequately operated and maintained, any other purpose relating to a project carried out under Title 23 U.S.C. and Title 49 U.S.C. 5301 et seq.&#xa;Previous | Table of Contents | Next"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel7">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="cc" red="cc" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Land Use Control">
+                <Property name="tabTitle" type="java.lang.String" value="Land Use Control"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="backJButton6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="620" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane9" pref="707" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="514" max="32767" attributes="0"/>
+                      <Component id="backJButton6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                          <Component id="jScrollPane9" pref="451" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="backJButton6">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="18" style="0"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="C:\Users\Swarup\Documents\NetBeansProjects\Project\back-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Back"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="backJButton6ActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane9">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea9">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="To prevent the haphazard development of land, land-use is restricted by public and private land-use controls. and by government ownership of land. For instance, parks and forest preserves are protected by government ownership.&#xa;&#xa;Land-use controls consists of government ordinances, codes, and permit requirements that restrict the private use of land and natural resources, to conform to public policies. There are several types of land-use regulations, including subdivision regulations, zoning, building codes, housing codes, curve-cut permit systems, historic preservation laws, and tree cutting laws.&#xa;&#xa;The primary public land-use control is zoning, where properties of the same type, such as residential or commercial, are designated for particular geographic zones. The primary private land-use control is deed restrictions, limiting what can be done on the property by the owner. The primary purpose of land-use controls is to limit population density, noise, pollution, and to maintain the aesthetics of the neighborhood. The federal government has virtually no laws regulating land-use. Most land-use controls are within the province of the states, but their enactment and enforcement are delegated to the local governments. Hence, land-use controls can vary widely across localities.&#xa;&#xa;Legality for Land-Use Controls&#xa;&#xa;The preamble of the United States Constitution allows laws to be enacted for the general welfare, but the 14th amendment prevents states from depriving people of property or interfering with its use, without due process of law. The United States Constitution delegates the police power to the states, allowing them to issue regulations to protect public health, safety, and welfare. However, since land-use controls depend on population density, the mix of architectural structures, and the typography of the land, the states delegate most of their powers to regulate land-use to the municipalities, who enact ordinances that conform to state law. State and federal governments regulate land-use through broader legislation, such as environmental laws, coastal management, or scenic easements.&#xa;&#xa;The 5th amendment of the U.S. Constitution also has a takings clause that states that private property cannot be taken for public use, without just compensation. Hence, if property is condemned because the government wants to exercise eminent domain, then the owner must be compensated. Similarly, a landowner may bring an inverse condemnation action, seeking compensation for the devaluation of his land because of a public taking of adjacent land. For instance, a major highway built near residential units will likely devalue those properties.&#xa;&#xa;The amount of compensation is usually determined by negotiation between the property owner and the government or the property owner can take the government to court, and let the court decide. Often, just compensation is determined by the before-and-after method, where the property value after the development of the adjacent land is compared to the property value before the taking.&#xa;&#xa;Likewise, land-use controls cannot restrict property owners from enjoying their property or doing what they want with it unless it is justified by the police powers. For instance, zoning consists of local laws that regulate the use of privately owned real estate to promote orderly development and to provide different population densities in different areas and to protect environmental resources.&#xa;&#xa;Zoning regulations cannot be unreasonable, arbitrary, or destructive. Zoning ordinances must also not violate the state constitution or other applicable provisions in state law. Generally, zoning ordinances:&#xa;&#xa;must be exercised in a reasonable manner&#xa;be clear and specific&#xa;be nondiscriminatory&#xa;apply to all property in a similar manner&#xa;promote public health, safety, or the general welfare under the state&#x2019;s police power&#xa;Comprehensive Plan&#xa;&#xa;Before the details for land-use controls can be mapped out, there must be a comprehensive plan (aka master plan) that will satisfy objectives and prevent conflicts in future development, providing a blueprint for sustainable growth, while balancing social, economic, environmental, and aesthetic desires.&#xa;&#xa;Land-use controls specify quantity and location of parcels for residents, business, agriculture, industry, utilities, community facilities, parks and recreations, traffic and transit facilities, as well as marking off floodplains and potential hazards. A major consideration is for housing, both present and future needs, while preventing or rehabilitating declining neighborhoods. A transportation infrastructure must also be provided: highways, public transit, parking, and possibly pedestrian and bicycle paths. To protect health and the environment, there must be a comprehensive plan for utilities, including water sources, sewage, storm drainage, flood management, waste treatment and disposal.&#xa;&#xa;A comprehensive plan will also consider means of conserving resources, such as energy. For instance, the efficiency of transportation will depend on decisions regarding the location of traffic signals, timing of the signals, two-way or one-way traffic and which directions for the one-way traffic.&#xa;&#xa;Zoning&#xa;&#xa;If the comprehensive plan is the general blueprint, then zoning is the details, local laws enacted according to the comprehensive plan, usually designating specific districts for particular types of structures or activities, such as residences and businesses.&#xa;&#xa;A zoning ordinance generally defines:&#xa;&#xa;the purpose of the ordinance&#xa;the zoning classifications of permitted uses for the different sections of land&#xa;restrictions, such as setbacks and height limitations&#xa;procedure for allowing nonconforming uses&#xa;procedure for granting variances, amendments, and hearing appeals&#xa;penalties for violations&#xa;Zoning determines:&#xa;&#xa;permitted uses for each parcel of land&#xa;lot sizes&#xa;types of structures&#xa;building heights&#xa;setbacks, being the minimum distance between structures on the property and streets or sidewalks&#xa;density, either population density or the amount of structures per unit area of land&#xa;style and appearances of structures&#xa;protection of natural resources.&#xa;The city planning department creates and maintains a zoning map, a diagram of the existing zoning classifications: single-family residential, multiunit, mixed-use, agricultural, commercial, and industrial, and so on.&#xa;&#xa;The zones are most commonly designated by letters, such as A for agricultural, R for residential, and C for commercial. In addition, certain planned unit developments (PUD) may be zoned for mixed-use, comprising both residential and commercial sections. Zoned classifications may have further subdivisions. For instance, land zoned for residential may be subdivided further into single-family homes, semi-detached residences consisting of no more than 4 dwelling units, high-rise apartments, and so on. So C-1 may designate businesses such as service stations and convenience stores; R-2, single-family housing; R-4, high density residential, as in apartments, and so on.&#xa;&#xa;There may also be buffer zones, consisting of playgrounds or parks that separate residential zones from other zones.&#xa;&#xa;Other types of zoning may designate special qualities, such as box zoning that specifies building heights, setbacks, and percentage of open area to avoid overcrowding and aesthetics zoning that may specify buildings of a certain architectural style. Incentive zoning guides current development for certain desirable characteristics, such as requiring a high-rise office building to house retail establishments on the street-level floor. Spot zoning classifies a parcel of land differently from surrounding property if the zone is not within the comprehensive zoning plan nor can be justified because of health, safety, or the general welfare.&#xa;&#xa;Compliance with zoning ordinances is monitored through the issuance of zoning permits, where the property owner or developer cannot substantially alter the use the property without getting a zoning permit, which will not be issued unless the proposed development conforms to the zoning ordinance. Zoning permits are usually required before building permits can be issued.&#xa;&#xa;Some properties that were developed before the enactment of zoning ordinances may not conform to the new regulations or the zoning requirements may cause an undue hardship on some property owners because of the nature or the topography of the land. In such cases, exceptions are made to the zoning ordinance to allow such nonconforming uses. A nonconforming use may continue until the current use is abandoned or the property is destroyed. The nonconforming use may continue indefinitely if it has been grandfathered into the zoning ordinance.&#xa;&#xa;Subdivisions&#xa;&#xa;Subdivision regulations are part of comprehensive plans that apply to large subdivisions of land set aside for residences, specifying such things as the proportion of open space, the pattern of access roads, and what will remain the property of the county or other municipality. Special density zoning standards for some subdivisions regulate the gross density for a particular area. The gross density is equal to the average number of residential units in an area.&#xa;&#xa;A subdivider buys undeveloped land and divides it into smaller units to sell to developers or individuals. A developer builds structures on the land, such as homes or businesses. The developer may also be the subdivider. Before the actual subdivision, the subdivider must submit a development plan that conforms to the municipality&#x2019;s comprehensive plan.&#xa;&#xa;Different subdivisions may have different street patterns. For instance, the gridiron pattern has rectangular blocks with public streets running on all sides and smaller alleys in between. However, the streets can also have a curvilinear or clustering pattern where the homes are clustered in cul-de-sacs and limited use streets with more open spaces.&#xa;&#xa;Additionally, procedures for submitting and processing subdivision plats are also stipulated. Subdivisions are divided into plats, which are further subdivided into blocks, consisting of several lots, which are sold individually.&#xa;&#xa;A plat is a section of a subdivision that shows geographic boundaries of individual lots, blocks, sections, streets, public easements, monuments, engineering data, and restrictive covenants. A plan for the plat must be approved by the municipality before it can be recorded. The subdivider may also need to file an environmental impact report that also must be approved. The subdivider determines the location and size of the individual lots, taking advantage of natural drainage and land contours, and providing for utility easements, and water and sewer easements. A plat may also have a homeowner&#x2019;s association and may publish and maintain the bylaws for the subdivision.&#xa;&#xa;Building Codes and Certificates of Occupancy&#xa;&#xa;Building codes specify construction standards for repairing or constructing buildings, such as the materials used, electrical wiring, fire prevention, sanitary equipment, and so on. The property owner must request a building permit to alter, repair, or construct a structure. A municipal inspector must approve of the construction plans and will periodically inspect the construction. After the construction is completed to the satisfaction of the municipal inspector, then a certificate of occupancy (aka occupancy permit) will be issued to the developer or owner, certifying that the completed construction complies with public health and building codes, thus allowing the structure to be occupied by people. Note that a building permit does not take into consideration any deed restrictions on the property, only with the construction of the addition or alteration. Some communities, such as historical districts, may also have aesthetic ordinances to maintain the appearance or character of a neighborhood. Aesthetic building permits are issued by a special board in charge of supervising the ascetic ordinances.&#xa;&#xa;Changing Zoning: Zoning Boards, Variances, and Conditional Use Permits&#xa;&#xa;Over time, zoning will change as the needs of the area change. For instance, businesses often go bankrupt or the land needs for a particular industry declines, due to changes in technology or competition. Consequently, many business structures become empty. So, many cities change the zoning for the structure so that they can be converted into residential units.&#xa;&#xa;Additionally, developers must develop structures according to what is permitted by zoning. If another type of structure is desired for many properties, then the land must be rezoned. Generally, rezoning is usually permitted by a planning commission or zoning board after a public hearing. A zoning board (aka zoning board of appeal) considers any applications for changing zoning, such as petitions for conditional use, variances or exceptions.&#xa;&#xa;A conditional-use permit (aka special-use permit) allows a conditional use of property within a particular zone, such as a church in a residential district. Conditional-use permits must comply with certain standards set by the municipality.&#xa;&#xa;A variance is granted by the zoning authority to a property owner to allow for a specific violation of the zoning ordinance, usually because the zoning ordinance imposes a burden on the property owner because of the nature of the parcel of land. For instance, a variance may be granted to a property owner with a small lot, where it may not be possible to satisfy setback and open area to residential area requirements.&#xa;&#xa;While a conditional use permit allows related land uses, variances permit prohibited land uses because the ordinance would have a burdensome effect on the property. However, to be granted a variance, the landowner must demonstrate the need for the variance in that the property is harmed or burdened by the regulations. A variance may also be issued if the topography of the land makes it difficult to conform to the zoning ordinance. Requirements for a zoning variance:&#xa;&#xa;the zoning places an undue burden on the land&#xa;the adverse effect of the zoning ordinance must affect the individual seeking the variance particularly and without a similar effect on its neighbors&#xa;the variance does not substantially alter the character of the neighborhood as zoned. This is the most important criterion.&#xa;Note that if zoning places an undue burden on a parcel of land, then there must be something particularly different about that parcel from the surrounding parcels; otherwise, the area itself would receive a different zone classification.&#xa;&#xa;Obtaining a variance or change in zoning costs time and money, but success is more likely if the property is located near a zone for which the conversion would be classified as. So a residential rezoning of commercial property will more likely be approved if the land is located near residentially zoned property.&#xa;&#xa;Conditional use permits and variances are issued by zoning boards only after public hearings that are locally advertised, allowing neighbors to contest the request. A property owner may also seek an amendment to the zoning ordinance, where a modification of the zoning ordinance will apply to a particular parcel of land. Like conditional-use permits and variances, an amendment is only issued by the zoning board after a hearing.&#xa;&#xa;Although decisions by zoning boards can be appealed to the courts, the courts generally defer to the zoning boards unless they abuse their power.&#xa;&#xa;Private Land-Use Controls&#xa;&#xa;Besides government restrictions on land-use, there may also be private restrictions that are enacted by the property owners or the property developers, especially over time. However, a private land-use control cannot violate any government law regulating land-use.&#xa;&#xa;Restrictive covenants, sometimes referred to as the CCR&#x2019;s, &#x2013; conditions, covenants, and restrictions &#x2013; limit the use of a particular property, a condominium, or a subdivision. Such restrictions are either written in the deeds to the property or into the bylaws for the subdivision, which the deeds will reference. The main purpose of the CCR&#x2019;s is to maintain the look and feel of the community.&#xa;&#xa;Restrictive covenants set standards for the construction of units within a subdivision, such as type of structures, height, size, land-use, architectural style, setbacks, square footage, and construction methods. A deed restriction is one that stipulates the land-use control on the deed or it refers to another document specifying the limitations in the use of the property. Sometimes, deed restrictions are limited in duration, such as 20 years. Afterwards, they cease to exist unless extended by agreement.&#xa;&#xa;Restrictive covenants cannot be illegal, such as barring a specific race. A restrictive covenant must exist to promote the appearance or safety of the property; otherwise, it may be construed as interfering with the free transfer of property. If legally acceptable, private land-use controls are generally more restrictive than public controls, but the more restrictive covenant or ordinance has priority.&#xa;&#xa;Private land-use controls are enforced by adjacent property owners who can bring any violators to court to seek an injunction against the prohibited activity. If the court rules in their favor, then the property owner must obey the covenant. However, if adjacent property owners do not bring an injunction or there is a significant time delay in bringing an injunction, then the court may decide that the restrictive covenant no longer applies and that it has become inoperative through lack of enforcement, what the law sometimes refers to as laches. Laches is the undue delay or failure in asserting one&#x2019;s legal rights, where the courts may rule that the negligent party seeking an injunction is estopped."/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel8">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="cc" red="cc" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Urban Growth Boundaries">
+                <Property name="tabTitle" type="java.lang.String" value="Urban Growth Boundaries"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="backJButton5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="620" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane8" pref="707" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="514" max="32767" attributes="0"/>
+                      <Component id="backJButton5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                          <Component id="jScrollPane8" pref="451" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="backJButton5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="18" style="0"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="C:\Users\Swarup\Documents\NetBeansProjects\Project\back-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Back"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="backJButton5ActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane8">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea8">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="Urban Growth Boundaries&#xa;&#xa;Without clearly defined and legally enforceable boundaries, towns and cities inevitably sprawl into the countryside, impairing land with agricultural, ecological, and historical significance.&#xa;&#xa;An Urban Growth Boundary (UGB) is a zoning tool that maintains a relatively high density of housing and commercial development inside the boundary and a rural density outside the boundary. Ecologically and culturally sensitive areas inside the UGB should be set aside, and a mix of residential, commercial, and green industrial uses permitted. This encourages the formation of compact towns and cities, with all the advantages for transit, infrastructure, and human-scale neighborhoods they offer. At the same time, it removes development pressures from farms, forests, and wildlands located outside the boundary, helping to preserve productive rural areas and ultimately contributing to a broader matrix of connected wildlands.&#xa;&#xa;UGBs can be implemented through (reversible) zoning laws or (irreversible) land purchases and conservation easements. Oregon&apos;s land-use planning laws, administered through the Department of Land Conservation and Development, require each town and city in Oregon to maintain a 20-year supply of residential, commercial, and industrial lands inside their UGBs. This ensures an orderly development pattern, working from the core out. Lands outside the boundary receive rural zoning types. However, these boundaries can be periodically extended outward in response to growth pressures, potentially reversing rural zoning in areas adjacent to existing UGBs.&#xa;&#xa;Outright land purchases and conservation easements can maintain de facto UGBs by protecting continuous greenbelts and corridors or maintaining rural reserves with lands of special agricultural, ecological, or cultural significance. When comprehensive enough, such land purchases and easements provide effective barriers to new development. Conservation easements permanently remove certain development rights from parcels of land, allowing owners to stay on their land while decreasing their property tax. These strategies, unlike zoning laws, result in permanent land protection, but at great cost. Zoning laws have the virtue of being implemented at very little cost through popular vote, but have the corresponding vulnerability of being overturned in the next vote.&#xa;&#xa;Ideally, an urban growth boundary creates a strong transition between urban and rural areas. The boundary itself should be a place of great beauty and integrity, forming a strong gateway inviting one both inward to the city and outward to rural areas and the wilderness beyond.&#xa;&#xa;Create, either through zoning laws or land purchases and easements, an effective boundary around every city and town to channel residential and commercial development. Maintain a working rural landscape up to the edge of the city, providing additional protection as needed for land of special significance. Make the boundary itself a beautiful gateway to the city for rural dwellers and to the countryside for city dwellers."/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel9">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="cc" red="cc" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Development Policies">
+                <Property name="tabTitle" type="java.lang.String" value="Development Policies"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="backJButton4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="620" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane7" pref="707" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="514" max="32767" attributes="0"/>
+                      <Component id="backJButton4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                          <Component id="jScrollPane7" pref="451" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="backJButton4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="18" style="0"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="C:\Users\Swarup\Documents\NetBeansProjects\Project\back-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Back"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="backJButton4ActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane7">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea7">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="It is fundamentally important for organisations to develop policy. An organisation without policy is an organisation without control. If there were no formal documented policies, then organisation personnel at any level would have no guidance on how to make decisions.&#xa;&#xa;Imagine if you had a faulty product and you wished to return it to the shop from which it was purchased. If the shop has no policy on refunds, the result on whether you were able to obtain a refund might depend upon which person you spoke to, or whether the person you spoke to was having a bad day. In short, an absence of policy leads to inconsistency of decision making.&#xa;&#xa;From the point of view of the business of organisation manager, policies provide really useful and necessary assistance. The manager cannot be everywhere all the time to ensure staff carry out their tasks correctly and responsibly. Instead the manager will develop and communicate policies, and ask staff to read and adhere to them. Therefore policies help to decrease the amount of direct supervision by the manager, and at the same time increase the efficiency of work processes.&#xa;&#xa;Not everyone understands why policies exist. Some people may view them as being bureaucratic and overbearing. In reality, however, the existence of policies provides many benefits provided they are written well and kept up to date.&#xa;&#xa;Download a policy checklist Download a Policy Checklist suitable for Sport Organisation&#xa;&#xa;Benefits of Policies&#xa;&#xa;Some of the benefits of formal policies include:&#xa;&#xa;Helping staff to make decisions more efficiently .&#xa;Providing instruction on how to do tasks&#xa;Creating confidence and reduce bias in decision-making &#xa;Protecting staff from acting in a manner that might endanger their employment.&#xa;Protecting staff from acting in a manner that might endanger the safety of themselves and others.&#xa;Help staff to initiate actions and take responsibility without constant reference to management.&#xa;Increase the accountability of business or organisation&apos;s and its staff&#xa;The creation of policies is actually good evidence of proactive or forward-thinking management. "/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel10">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="cc" red="cc" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Tax Incentives">
+                <Property name="tabTitle" type="java.lang.String" value="Tax Incentives"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="backJButton3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="620" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane6" pref="707" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="514" max="32767" attributes="0"/>
+                      <Component id="backJButton3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                          <Component id="jScrollPane6" pref="451" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="backJButton3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="18" style="0"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="C:\Users\Swarup\Documents\NetBeansProjects\Project\back-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Back"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="backJButton3ActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane6">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea6">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="How Commuter Tax Benefits Work&#xa;The Federal tax code allows the use of tax-free dollars to pay for transit commuting and parking costs through employer-sponsored programs. Commuter tax benefits are regulated by the Internal Revenue Code, Section 132(f)&#x2014;Qualified Transportation Fringe.  As of January 2014, the tax code allows tax-free transportation fringe benefits of up to $130 per month per employee for transit expenses and up to $250 per month for qualified parking (including parking at BART stations.) Qualified parking is defined as parking at or near an employer&apos;s worksite, or at a facility from which employee commutes via transit, vanpool or carpool). Commuters can receive both the transit and parking benefits (up to $380 per month).  &#xa;&#xa;Companies can offer:&#xa;&#xa;A tax-free employer-paid subsidy&#xa;A pre-tax employee-paid payroll deduction&#xa;A combination of both of the above.&#xa;Note: Bay Area employers with 50 or more employees are now required to register and offer commuter benefits to their employees by September 30, 2014 in order to comply with the Bay Area Commuter Benefits Program.   Please visit www.511.org or call 511 and say &quot;Commuter Benefits&#x201d;.&#xa;&#xa;Employee Savings&#xa;Employees who set aside income on a pre-tax basis for a qualified transportation fringe benefit do not pay federal income or payroll taxes on the income set aside. If you have a combined (local, state, federal) tax rate of 40% and spend $130 per month on BART fares, you will save more than $600  per year. If you pay for monthly BART parking at $63 per month, you can save an additional $25 per month or $300 per year.&#xa;&#xa;If an employer chooses instead to subsidize the benefit it is actually more valuable than an equivalent raise because of the tax advantages (for example, if a subsidy of $190 is offered, this equals roughly $317 in taxable income).&#xa;&#xa;Employer Savings&#xa;Providing pre-tax commuter tax benefits to employees can save payroll taxes for employers.  The value of the benefit paid to employees is considered a tax-free transportation fringe benefit and not wage or salary compensation, therefore, payroll taxes do not apply.  Employers can save roughly 7.5% in payroll taxes (including FICA, SUI, SDI and city taxes) on the amount employees set aside.  If the employer chooses to offer the benefit in addition to the employee&#x2019;s monthly salary, giving an employee $130 in transit benefits is less expensive for an employer than increasing the employee&#x2019;s salary by $130.&#xa;&#xa;Calculate your company&#x2019;s potential savings (external link)How to Get Started&#xa;Commuter Tax Benefit programs are easy for employers to implement.  The following links will take you to some of the providers who can work with employers to make the appropriate arrangements.  In addition, payroll and benefit management companies such as ADP, Ceridian, SHPS, and other firms can assist many employers with the implementation of a Commuter Tax Benefits program.&#xa;&#xa;PROS AND CONS OF COMMON EMPLOYER OPTIONS FOR PROVIDING COMMUTER BENEFITS&#xa;&#xa;The pros and cons of some common options available to employers for providing Commuter Tax Benefits to their employees are summarized below from the employer and employee perspectives.&#xa;&#xa;Paper Vouchers:  Similar to cash or a money order but specifically for the purchase of transit fare media.&#xa;&#xa;Employer perspective: This option is relatively easy and inexpensive for employers although the vouchers must be distributed manually which may be challenging for larger employers.  Vouchers are not tied to an individual employee allowing more flexibility.&#xa;&#xa;Employee perspective:  Requires employees to take voucher to a redemption location to load onto the Clipper card (some inconveniences with this process noted in BART survey).  Unused funds are not refunded per IRS &#x201c;no change&#x201d; regulation.    &#xa;&#xa;Benefits by Mail and Direct Load:  Tickets or vouchers are ordered online directly by participants and delivered by mail or loaded to a debit card.&#xa;&#xa;Employer perspective:  Good solution for larger employers and/or employers with multiple worksites.  Employers don&#x2019;t have to distribute benefits and employees can manage their own account online. &#xa;&#xa;Employee perspective:  Does not require employees to redeem vouchers.&#xa;&#xa;Debit Card:  Similar to a bank debit card but loaded with funds that can only be used to purchase transit tickets.&#xa;&#xa;Employer perspective:  Personalized and non-personalized options available.  Non-personalized is easy to administer and fees can be as low as vouchers.  WageWorks card and TransitCenter&#x2019;s QuickPay Card can be used with Clipper Autoload.&#xa;&#xa;Employee perspective:  Debit cards have many of the same features as vouchers plus they can be used online and at ticket vending machines.  Unused funds can be carried over.  Debit cards cannot be used at locations that sell non-transit products."/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
