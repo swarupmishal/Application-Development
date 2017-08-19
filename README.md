@@ -33,19 +33,19 @@ Construction Manager Role:
 Responsibilities: Manages the Construction Manager Organization. Basically he is the one who handles various Construction related events.
 
 ### Key features:
-Weather Forecast
+##### Weather Forecast
 ![alt text](https://github.com/swarupmishal/Application-Development/blob/master/Screenshots/weather.PNG)
 
-Sensor Input
+##### Sensor Input
 ![alt text](https://github.com/swarupmishal/Application-Development/blob/master/Screenshots/SENSOR.PNG)
 
-Information tabbed pane
+##### Information tabbed pane
 ![alt text](https://github.com/swarupmishal/Application-Development/blob/master/Screenshots/100%25.PNG)
 
-Business Intelligence
+##### Business Intelligence
 ![alt text](https://github.com/swarupmishal/Application-Development/blob/master/Screenshots/BI.PNG)
 
-Graphical Representation
+##### Graphical Representation
 ![alt text](https://github.com/swarupmishal/Application-Development/blob/master/Screenshots/Graphs.PNG)
 
 ### Technical Specifications:
